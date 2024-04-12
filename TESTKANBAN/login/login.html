@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="login.css">
+  <title>HASH TECHIE OFFICIAL - Login</title>
+</head>
+<body>
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <form id="loginForm" action="dashboard.html">
+                    <h2>Login</h2>
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" required>
+                        <label for="">Email</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" required>
+                        <label for="">Password</label>
+                    </div>
+                    <div class="forget">
+                        <label for=""><input type="checkbox">Remember Me  <a href="#">Forget Password</a></label>
+                    </div>
+                    <button type="submit">Log in</button>
+                    <div class="register">
+                        <p>Don't have an account? <a href="register.html">Register</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <nav id="navbar" style="display: none;">
+        <ul>
+
+            <li><a href="/translator/index.html">Translator</a></li>
+            <li><a href="/dictionary/index.html">Dictionary</a></li>
+            <li><a href="/kanbanboard/index2.html">Kanban Board</a></li>
+            <li><a href="/notes app/index.html">Notes</a></li>
+            <li><a href="/timer/index.html">Timer</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </nav>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
